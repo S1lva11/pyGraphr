@@ -37,6 +37,9 @@ class Node:
     def get_heuristic(self):
         return self.heuristic
 
+    def set_heuristic(self, value):
+        self.heuristic = value
+
     def __str__(self):
         return self.name
 
